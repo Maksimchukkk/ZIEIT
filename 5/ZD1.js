@@ -1,0 +1,12 @@
+let styles = ["Jazz", "Blues"];
+console.log(styles);
+styles.push("Rock-n-Roll");
+console.log(styles);
+const middleIndex = Math.floor(styles.length / 2);
+styles[middleIndex] = "Classics";
+console.log(styles);
+const firstElement = styles.shift();
+console.log(firstElement);
+console.log(styles);
+styles.unshift("Rap", "Reggae");
+console.log(styles);
